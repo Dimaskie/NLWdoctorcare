@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DoctorCare</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Londrina+Shadow&family=Montserrat:wght@500&family=New+Rocker&family=Poppins:wght@100;200;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="">
+    <nav class="" id="navigation">
+      <div class="wrapper">
+        <a href="#home" class="logo">Doctor<span>Care</span></a>
+
+        <div class="menu">
+          <ul>
+            <li>
+              <a onclick="closeMenu()" href="#home">Inicio</a>
+            </li>
+            <li><a onclick="closeMenu()" href="#services">Servicos</a></li>
+            <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
+          </ul>
+          <a href="#contact" onclick="closeMenu()" class="button">
+            Agende sua consulta</a
+          >
+          <ul class="social-links">
+            <li>
+              <a href="#" target="_blank">
+                <?xml version="1.0"?><svg
+                  fill="#fff"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="30px"
+                  height="30px"
+                >
+                  <path
+                    d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <svg
+                  fill="#fff"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 50 50"
+                  width="30px"
+                  height="30px"
+                >
+                  <path
+                    d="M 9 4 C 6.2504839 4 4 6.2504839 4 9 L 4 41 C 4 43.749516 6.2504839 46 9 46 L 25.832031 46 A 1.0001 1.0001 0 0 0 26.158203 46 L 31.832031 46 A 1.0001 1.0001 0 0 0 32.158203 46 L 41 46 C 43.749516 46 46 43.749516 46 41 L 46 9 C 46 6.2504839 43.749516 4 41 4 L 9 4 z M 9 6 L 41 6 C 42.668484 6 44 7.3315161 44 9 L 44 41 C 44 42.668484 42.668484 44 41 44 L 33 44 L 33 30 L 36.820312 30 L 38.220703 23 L 33 23 L 33 21 C 33 20.442508 33.05305 20.398929 33.240234 20.277344 C 33.427419 20.155758 34.005822 20 35 20 L 38 20 L 38 14.369141 L 37.429688 14.097656 C 37.429688 14.097656 35.132647 13 32 13 C 29.75 13 27.901588 13.896453 26.71875 15.375 C 25.535912 16.853547 25 18.833333 25 21 L 25 23 L 22 23 L 22 30 L 25 30 L 25 44 L 9 44 C 7.3315161 44 6 42.668484 6 41 L 6 9 C 6 7.3315161 7.3315161 6 9 6 z M 32 15 C 34.079062 15 35.38736 15.458455 36 15.701172 L 36 18 L 35 18 C 33.849178 18 32.926956 18.0952 32.150391 18.599609 C 31.373826 19.104024 31 20.061492 31 21 L 31 25 L 35.779297 25 L 35.179688 28 L 31 28 L 31 44 L 27 44 L 27 28 L 24 28 L 24 25 L 27 25 L 27 21 C 27 19.166667 27.464088 17.646453 28.28125 16.625 C 29.098412 15.603547 30.25 15 32 15 z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <?xml version="1.0"?><svg
+                  fill="#fff"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="30px"
+                  height="30px"
+                >
+                  <path
+                    d="M 12 4 C 12 4 5.7455469 3.9999687 4.1855469 4.4179688 C 3.3245469 4.6479688 2.6479687 5.3255469 2.4179688 6.1855469 C 1.9999687 7.7455469 2 12 2 12 C 2 12 1.9999687 16.254453 2.4179688 17.814453 C 2.6479687 18.675453 3.3255469 19.352031 4.1855469 19.582031 C 5.7455469 20.000031 12 20 12 20 C 12 20 18.254453 20.000031 19.814453 19.582031 C 20.674453 19.352031 21.352031 18.674453 21.582031 17.814453 C 22.000031 16.254453 22 12 22 12 C 22 12 22.000031 7.7455469 21.582031 6.1855469 C 21.352031 5.3255469 20.674453 4.6479688 19.814453 4.4179688 C 18.254453 3.9999687 12 4 12 4 z M 12 6 C 14.882 6 18.490875 6.1336094 19.296875 6.3496094 C 19.465875 6.3946094 19.604391 6.533125 19.650391 6.703125 C 19.891391 7.601125 20 10.342 20 12 C 20 13.658 19.891391 16.397875 19.650391 17.296875 C 19.605391 17.465875 19.466875 17.604391 19.296875 17.650391 C 18.491875 17.866391 14.882 18 12 18 C 9.119 18 5.510125 17.866391 4.703125 17.650391 C 4.534125 17.605391 4.3956094 17.466875 4.3496094 17.296875 C 4.1086094 16.398875 4 13.658 4 12 C 4 10.342 4.1086094 7.6011719 4.3496094 6.7011719 C 4.3946094 6.5331719 4.533125 6.3946094 4.703125 6.3496094 C 5.508125 6.1336094 9.118 6 12 6 z M 10 8.5351562 L 10 15.464844 L 16 12 L 10 8.5351562 z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="open-menu" onclick="openMenu()">
+          <svg
+            fill="#00856F"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24px"
+            height="24px"
+          >
+            <path
+              d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"
+            />
+          </svg>
+        </button>
+        <button class="close-menu" onclick="closeMenu()">
+          <svg
+            fill="#fff"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24px"
+            height="24px"
+          >
+            <path
+              d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h4>BOAS-VINDAS A DOCTORCARE</h4>
+            <h1>Assistencia medica simplificada para todos</h1>
+          </header>
+          <div class="content">
+            <p>
+              Os medicos da DoctorCare vao alem dos sintomas para tratar a causa
+              da raiz de sua doenca e proporcionar uma cura a longo prazo.
+            </p>
+            <button id="whatsapp">
+              <img
+                id="whatsappIcon"
+                src="https://img.icons8.com/material-outlined/24/ffffff/whatsapp--v1.png"
+              />Agende sua consulta
+            </button>
+          </div>
+        </div>
+        <div class="col-b">
+          <img src="imgs/Foto.png" id="foto" alt="foto" />
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <h3>+3.500</h3>
+            <p>Pacientes atendidos</p>
+          </div>
+          <div class="stat">
+            <h3>+15</h3>
+            <p>Especialistas disponiveis</p>
+          </div>
+          <div class="stat">
+            <h3>+10</h3>
+            <p>Anos no mercado</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrapper">
+        <header>
+          <h4>Servicos</h4>
+          <h2>Como podemos ajuda lo para se sentir melhor</h2>
+        </header>
+        <div class="content">
+          <div class="cards">
+            <div class="card">
+              <img
+                src="https://img.icons8.com/windows/32/000000/--checkmark-yes.png"
+              />
+              <h3>Problemas digestivos</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                qui earum accusantium non odit fugiat molestias nam inventore,
+                molestiae quia assumenda accusamus quas aliquid, sequi eum,
+                libero rem illo minima!
+              </p>
+            </div>
+            <div class="card">
+              <img
+                src="https://img.icons8.com/windows/32/000000/--checkmark-yes.png"
+              />
+              <h3>Saude Hormonal</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                qui earum accusantium non odit fugiat molestias nam inventore,
+                molestiae quia assumenda accusamus quas aliquid, sequi eum,
+                libero rem illo minima!
+              </p>
+            </div>
+            <div class="card">
+              <img
+                src="https://img.icons8.com/windows/32/000000/--checkmark-yes.png"
+              />
+              <h3>Bem Estar Mental</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                qui earum accusantium non odit fugiat molestias nam inventore,
+                molestiae quia assumenda accusamus quas aliquid, sequi eum,
+                libero rem illo minima!
+              </p>
+            </div>
+            <div class="card">
+              <img
+                src="https://img.icons8.com/windows/32/000000/--checkmark-yes.png"
+              />
+              <h3>Cuidados Pediatricos</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                qui earum accusantium non odit fugiat molestias nam inventore,
+                molestiae quia assumenda accusamus quas aliquid, sequi eum,
+                libero rem illo minima!
+              </p>
+            </div>
+            <div class="card">
+              <img
+                src="https://img.icons8.com/windows/32/000000/--checkmark-yes.png"
+              />
+              <h3>Automimune e Inflamacao</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                qui earum accusantium non odit fugiat molestias nam inventore,
+                molestiae quia assumenda accusamus quas aliquid, sequi eum,
+                libero rem illo minima!
+              </p>
+            </div>
+            <div class="card">
+              <img
+                src="https://img.icons8.com/windows/32/000000/--checkmark-yes.png"
+              />
+              <h3>Saude do Coracao</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                qui earum accusantium non odit fugiat molestias nam inventore,
+                molestiae quia assumenda accusamus quas aliquid, sequi eum,
+                libero rem illo minima!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h4>Sobre Nos</h4>
+            <h2>Entenda quem somos e por que existimos</h2>
+          </header>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              voluptatem consectetur quis dignissimos. Provident deleniti cumque
+              minus tempore sapiente dolorem, illum, quis aspernatur neque
+              exercitationem alias eligendi architecto ratione consectetur.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusamus alias adipisci libero dolore magnam amet veniam, rerum
+              explicabo obcaecati temporibus incidunt ut sapiente? Optio
+              exercitationem in nesciunt facere veritatis minus quasi cupiditate
+              ea rerum corrupti enim, fugit facilis a iste ducimus natus
+              voluptas laborum, animi
+            </p>
+          </div>
+        </div>
+        <div class="col-b">
+          <img
+            src="imgs/doutor-feliz-segurando-prancheta-com-pacientes.png"
+            alt="Doutor feliz segurando prancheta com pacientes"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h2>Entre em contato com agente</h2>
+          </header>
+          <div class="content">
+            <ul>
+              <li>
+                <img
+                  src="https://img.icons8.com/ios/50/00856F/place-marker--v1.png"
+                />
+                R. Amauri Souza
+              </li>
+              <li>
+                <img
+                  src="https://img.icons8.com/ios/50/00856F/apple-mail.png"
+                />contato@doctor.care
+              </li>
+              <a href="https://www.youtube.com/" target="_blank">
+                <button id="whatsapp">
+                  <img
+                    id="whatsappIcon"
+                    src="https://img.icons8.com/material-outlined/24/ffffff/whatsapp--v1.png"
+                  />Agende sua consulta
+                </button>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-b">
+          <img
+            src="imgs/homem-negro-com-moletom-bege-mexendo-no-celular.png"
+            alt="homen negro com moletom bege"
+          />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrapper">
+        <div class="col-a">
+          <a href="#home" class="logo">Doctor<span>Care</span></a>
+          <p>
+            2021 Beautysalon. <br />
+            Todos os direitos reservados
+          </p>
+        </div>
+        <div class="col-b">
+          <ul class="social-links">
+            <li>
+              <a href="#" target="_blank">
+                <?xml version="1.0"?><svg
+                  fill="#fff"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="30px"
+                  height="30px"
+                >
+                  <path
+                    d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <svg
+                  fill="#fff"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 50 50"
+                  width="30px"
+                  height="30px"
+                >
+                  <path
+                    d="M 9 4 C 6.2504839 4 4 6.2504839 4 9 L 4 41 C 4 43.749516 6.2504839 46 9 46 L 25.832031 46 A 1.0001 1.0001 0 0 0 26.158203 46 L 31.832031 46 A 1.0001 1.0001 0 0 0 32.158203 46 L 41 46 C 43.749516 46 46 43.749516 46 41 L 46 9 C 46 6.2504839 43.749516 4 41 4 L 9 4 z M 9 6 L 41 6 C 42.668484 6 44 7.3315161 44 9 L 44 41 C 44 42.668484 42.668484 44 41 44 L 33 44 L 33 30 L 36.820312 30 L 38.220703 23 L 33 23 L 33 21 C 33 20.442508 33.05305 20.398929 33.240234 20.277344 C 33.427419 20.155758 34.005822 20 35 20 L 38 20 L 38 14.369141 L 37.429688 14.097656 C 37.429688 14.097656 35.132647 13 32 13 C 29.75 13 27.901588 13.896453 26.71875 15.375 C 25.535912 16.853547 25 18.833333 25 21 L 25 23 L 22 23 L 22 30 L 25 30 L 25 44 L 9 44 C 7.3315161 44 6 42.668484 6 41 L 6 9 C 6 7.3315161 7.3315161 6 9 6 z M 32 15 C 34.079062 15 35.38736 15.458455 36 15.701172 L 36 18 L 35 18 C 33.849178 18 32.926956 18.0952 32.150391 18.599609 C 31.373826 19.104024 31 20.061492 31 21 L 31 25 L 35.779297 25 L 35.179688 28 L 31 28 L 31 44 L 27 44 L 27 28 L 24 28 L 24 25 L 27 25 L 27 21 C 27 19.166667 27.464088 17.646453 28.28125 16.625 C 29.098412 15.603547 30.25 15 32 15 z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <?xml version="1.0"?><svg
+                  fill="#fff"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="30px"
+                  height="30px"
+                >
+                  <path
+                    d="M 12 4 C 12 4 5.7455469 3.9999687 4.1855469 4.4179688 C 3.3245469 4.6479688 2.6479687 5.3255469 2.4179688 6.1855469 C 1.9999687 7.7455469 2 12 2 12 C 2 12 1.9999687 16.254453 2.4179688 17.814453 C 2.6479687 18.675453 3.3255469 19.352031 4.1855469 19.582031 C 5.7455469 20.000031 12 20 12 20 C 12 20 18.254453 20.000031 19.814453 19.582031 C 20.674453 19.352031 21.352031 18.674453 21.582031 17.814453 C 22.000031 16.254453 22 12 22 12 C 22 12 22.000031 7.7455469 21.582031 6.1855469 C 21.352031 5.3255469 20.674453 4.6479688 19.814453 4.4179688 C 18.254453 3.9999687 12 4 12 4 z M 12 6 C 14.882 6 18.490875 6.1336094 19.296875 6.3496094 C 19.465875 6.3946094 19.604391 6.533125 19.650391 6.703125 C 19.891391 7.601125 20 10.342 20 12 C 20 13.658 19.891391 16.397875 19.650391 17.296875 C 19.605391 17.465875 19.466875 17.604391 19.296875 17.650391 C 18.491875 17.866391 14.882 18 12 18 C 9.119 18 5.510125 17.866391 4.703125 17.650391 C 4.534125 17.605391 4.3956094 17.466875 4.3496094 17.296875 C 4.1086094 16.398875 4 13.658 4 12 C 4 10.342 4.1086094 7.6011719 4.3496094 6.7011719 C 4.3946094 6.5331719 4.533125 6.3946094 4.703125 6.3496094 C 5.508125 6.1336094 9.118 6 12 6 z M 10 8.5351562 L 10 15.464844 L 16 12 L 10 8.5351562 z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <a id="backToTopButton" href="#home">
+      <img
+        src="https://img.icons8.com/material-outlined/50/00856F/circled-up-2.png"
+    /></a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
